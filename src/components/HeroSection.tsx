@@ -31,7 +31,7 @@ export default function Hero() {
             <Link
               href="/deepakgupta-sde.pdf"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
-            >
+              >
               Download CV
             </Link>
           </div>
