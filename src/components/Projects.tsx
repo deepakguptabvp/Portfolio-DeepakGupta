@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Github, ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 type ProjectCategory = "All" | "Websites" | "Applications" | "Mobile";
 
@@ -103,7 +104,7 @@ export default function Projects() {
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"

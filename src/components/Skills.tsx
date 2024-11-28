@@ -7,8 +7,7 @@ import {
   Server,
   Smartphone,
   GitBranch,
-  Terminal,
-  Cloud,
+
 } from "lucide-react";
 
 interface Skill {
