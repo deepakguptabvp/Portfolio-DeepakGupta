@@ -29,7 +29,7 @@ export default function Hero() {
               Contact Me
             </Link>
             <Link
-              href="/deepakgupta_sde.pdf"
+              href="/deepakgupta-sde.pdf"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
               Download CV
