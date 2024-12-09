@@ -3,12 +3,11 @@ import { Github, Linkedin, FileText } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-16  dark:from-gray-900 dark:to-gray-800"
+      className="min-h-screen flex items-center pt-16 bg-slate-200 dark:bg-gray-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col lg:flex-row items-center">
         <div className="lg:w-3/4 lg:pr-12">
@@ -31,7 +30,7 @@ export default function Hero() {
             <Link
               href="/deepakgupta-sde.pdf"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
-              >
+            >
               Download CV
             </Link>
           </div>
@@ -39,16 +38,22 @@ export default function Hero() {
             <Link
               href="https://github.com/deepakguptabvp"
               className="social-link"
+              title="GitHub"
             >
               <Github className="w-6 h-6" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/deepakgupta1597/"
               className="social-link"
+              title="LinkedIn"
             >
               <Linkedin className="w-6 h-6" />
             </Link>
-            <Link href="/deepakgupta_sde.pdf" className="social-link">
+            <Link
+              href="/deepakgupta_sde.pdf"
+              className="social-link"
+              title="Download CV"
+            >
               <FileText className="w-6 h-6" />
             </Link>
           </div>

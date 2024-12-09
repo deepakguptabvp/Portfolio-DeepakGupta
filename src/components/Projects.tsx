@@ -27,7 +27,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/deepakguptabvp/TuneMasters-Academy",
   },
   {
-    title: "Hunting Coder Blog Website",
+    title: "Hunting - Coder Blog Website",
     description:
       "Created a responsive blog website focused on the latest technologies. Features dynamic content updates and an engaging user-friendly design.",
     image:
@@ -67,16 +67,14 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className=" bg-gray-200 dark:bg-gray-800 min-h-screen"
+      className=" bg-slate-100 dark:bg-gray-800 min-h-screen"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-auto">
-        <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-center p-10 md:p-12">
-            <span className="bg-gradient-to-r bg-clip-text text-transparent from-blue-800 to-slate-300">
-              My Projects
-            </span>
-          </h2>
-        </div>
+        <h2 className="text-4xl md:text-5xl font-bold text-center p-10 md:p-12">
+          <span className="bg-gradient-to-r bg-clip-text text-transparent from-blue-800 to-slate-300">
+            My Projects
+          </span>
+        </h2>
 
         {/* category filter */}
         <div className="flex flex-wrap justify-center p-2 md:p-2 gap-4">
