@@ -17,6 +17,17 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "PgFinder.com",
+    description:
+      "Discover comfortable and affordable PG accommodations across the city. Your new home is just a search away.",
+    image:
+      "https://i.ytimg.com/vi/ecwgerzpLrs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvdD7j6ySyOMcAgnCmrgzZY-3n9w",
+    category: "Applications",
+    techStack: ["ReactJs", "Javascript", "Tailwind CSS"],
+    demoLink: "https://pg-finder-gray.vercel.app/",
+    githubLink: "https://github.com/deepakguptabvp/pg-finder",
+  },
+  {
     title: "TuneMasters - Academy",
     description:
       "Join our interactive platform to master instruments or vocals with expert courses. Connect with us and start your musical journey today!",
@@ -94,7 +105,7 @@ export default function Projects() {
         </div>
 
         {/* Project Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 mt-6 md:px-20 md:py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 mt-6 md:px-16 md:py-8">
           {filteredProjects.map((project, index) => (
             <div
               key={project.title}
@@ -112,7 +123,9 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 underline">
+                  {project.title}
+                </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
                   {project.description}
                 </p>

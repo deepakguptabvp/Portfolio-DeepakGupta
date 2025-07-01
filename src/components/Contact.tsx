@@ -14,6 +14,11 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
+    setFormState({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -25,50 +30,7 @@ export default function Contact() {
           </span>
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="animate-fade-in">
-              <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-8">
-                I'm always open to discussing new projects, creative ideas or
-                opportunities to be part of your visions.
-              </p>
-            </div>
-
-            <div className="space-y-6">
-              {[
-                {
-                  icon: <Mail />,
-                  label: "Email",
-                  value: "deepakgupta.150743@gmail.com",
-                },
-                { icon: <Phone />, label: "Phone", value: "9643080715" },
-                {
-                  icon: <MapPin />,
-                  label: "Location",
-                  value: "Delhi, IN",
-                },
-              ].map((item, index) => (
-                <div
-                  key={item.label}
-                  className="flex items-center gap-4 animate-fade-in"
-                  style={{ animationDelay: `${index * 150}ms` }}
-                >
-                  <div className="p-3 bg-gradient-to-br from-blue-800 to-slate-300 text-white rounded-lg">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <div className="font-medium">{item.label}</div>
-                    <div className="text-gray-600 dark:text-gray-300">
-                      {item.value}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
           <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in">
             <div className="relative">
@@ -139,11 +101,54 @@ export default function Contact() {
             </button>
 
             {isSubmitted && (
-              <div className="fixed bottom-8 right-8 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg animate-fade-in">
+              <div className="fixed bottom-8 right-1/2 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg animate-fade-in">
                 Message sent successfully!
               </div>
             )}
           </form>
+
+          {/* Contact Information */}
+          <div className="space-y-8 md:px-6">
+            <div className="animate-fade-in">
+              <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-8">
+                I'm always open to discussing new projects, creative ideas or
+                opportunities to be part of your visions.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              {[
+                {
+                  icon: <Mail />,
+                  label: "Email",
+                  value: "deepakgupta.150743@gmail.com",
+                },
+                { icon: <Phone />, label: "Phone", value: "9643080715" },
+                {
+                  icon: <MapPin />,
+                  label: "Location",
+                  value: "Delhi, IN",
+                },
+              ].map((item, index) => (
+                <div
+                  key={item.label}
+                  className="flex items-center gap-4 animate-fade-in"
+                  style={{ animationDelay: `${index * 150}ms` }}
+                >
+                  <div className="p-3 bg-gradient-to-br from-blue-800 to-slate-300 text-white rounded-lg">
+                    {item.icon}
+                  </div>
+                  <div>
+                    <div className="font-medium">{item.label}</div>
+                    <div className="text-gray-600 dark:text-gray-300">
+                      {item.value}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-16 bg-slate-200 dark:bg-gray-900"
+      className="min-h-screen flex items-center pt-16 bg-shite dark:bg-gray-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col lg:flex-row items-center">
         <div className="lg:w-3/4 lg:pr-12">
@@ -28,7 +28,7 @@ export default function Hero() {
               Contact Me
             </Link>
             <Link
-              href="/deepakgupta_sde.pdf"
+              href="/Deepak Gupta - SDE(bbb).pdf"
               className="px-6 py-3 border-2 border-purple-600 text-purple-600 dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
               Download CV
