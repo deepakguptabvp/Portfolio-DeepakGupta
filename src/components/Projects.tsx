@@ -22,7 +22,7 @@ const projects: Project[] = [
       "Discover comfortable and affordable PG accommodations across the city. Your new home is just a search away.",
     image:
       "https://i.ytimg.com/vi/ecwgerzpLrs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvdD7j6ySyOMcAgnCmrgzZY-3n9w",
-    category: "Applications",
+    category: "Websites",
     techStack: ["ReactJs", "Javascript", "Tailwind CSS"],
     demoLink: "https://pg-finder-gray.vercel.app/",
     githubLink: "https://github.com/deepakguptabvp/pg-finder",
@@ -32,7 +32,7 @@ const projects: Project[] = [
     description:
       "Join our interactive platform to master instruments or vocals with expert courses. Connect with us and start your musical journey today!",
     image: "https://calarts.edu/sites/default/files/2024-11/music.jpg",
-    category: "Applications",
+    category: "Websites",
     techStack: ["ReactJs", "NextJs", "Typescript", "Framer motion"],
     demoLink: "https://tune-masters-academy.vercel.app/",
     githubLink: "https://github.com/deepakguptabvp/TuneMasters-Academy",
@@ -43,7 +43,7 @@ const projects: Project[] = [
       "Created a responsive blog website focused on the latest technologies. Features dynamic content updates and an engaging user-friendly design.",
     image:
       "https://bloggerspassion.com/wp-content/uploads/2019/12/best-programming-blogs.webp",
-    category: "Websites",
+    category: "Applications",
     techStack: ["ReactJs", "NextJs", "Tailwind CSS", "Javascript"],
     demoLink: "https://huntingcoder-delta.vercel.app/",
     githubLink: "https://github.com/deepakguptabvp/huntingcoder",
