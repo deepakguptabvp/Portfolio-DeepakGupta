@@ -49,6 +49,16 @@ const projects: Project[] = [
     githubLink: "https://github.com/deepakguptabvp/huntingcoder",
   },
   {
+    title: "Portfolio",
+    description: "Created a responsive portfolio",
+    image:
+      "https://parametric-architecture.com/wp-content/uploads/2024/08/Architecture-Portfolio-Cover-1024x683.webp",
+    category: "Applications",
+    techStack: ["ReactJs", "NextJs", "Tailwind CSS", "Typescript"],
+    demoLink: "https://portfolio-deepak-gupta.vercel.app/",
+    githubLink: "https://github.com/deepakguptabvp/Portfolio-DeepakGupta",
+  },
+  {
     title: "5-day Weather Forecast App",
     description:
       "Developed a mobile-responsive 5-day weather forecast app with a sleek UI. Includes temperature switching between Celsius and Fahrenheit for user convenience.",

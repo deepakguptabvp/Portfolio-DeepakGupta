@@ -2,7 +2,7 @@ import { Award, BookOpen, Coffee, Heart } from "lucide-react";
 import Image from "next/image";
 
 const stats = [
-  { icon: <Award />, label: "Years Experience", value: "2+" },
+  { icon: <Award />, label: "Years Experience", value: "3+" },
   { icon: <BookOpen />, label: "Projects Completed", value: "5+" },
   { icon: <Coffee />, label: "Cups of Coffee", value: "50+" },
   { icon: <Heart />, label: "Happy Clients", value: "3+" },
@@ -21,9 +21,9 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Hello! I'm a passionate <strong> frontend developer</strong> with
+              Hello! I'm a passionate <strong> Frontend Developer</strong> with
               a love for creating beautiful and functional web applications.
-              With over 2 years of experience in the field, I've had the
+              With almost 3 years of experience in the field, I've had the
               opportunity to work on various exciting projects and collaborate
               with talented people.
             </p>

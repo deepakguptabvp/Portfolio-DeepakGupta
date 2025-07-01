@@ -5,6 +5,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "i.ytimg.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
         hostname: "calarts.edu",
         pathname: "**",
       },
@@ -20,12 +25,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
+        hostname: "parametric-architecture.com",
         pathname: "**",
       },
       {
         protocol: "https",
-        hostname: "i.ytimg.com",
+        hostname: "images.unsplash.com",
         pathname: "**",
       },
     ],
