@@ -63,7 +63,7 @@ const projects: Project[] = [
     description:
       "Developed a mobile-responsive 5-day weather forecast app with a sleek UI. Includes temperature switching between Celsius and Fahrenheit for user convenience.",
     image:
-      "https://play-lh.googleusercontent.com/pCQw51XRP4UPr-FCYDjvNnEpFa0HDGJjjLDldN3rmw4KkwhqPu0PZXE8EopmAxzH9mQ",
+      "https://www.livemint.com/lm-img/img/2025/05/03/optimize/IRAQ-WEATHER--1_1746282079678_1746282089850.JPG",
     category: "Mobile",
     techStack: ["ReactJs", "JavaScript", "NextJs"],
     demoLink: "https://weather-forecast-app-beige.vercel.app/",
@@ -133,10 +133,10 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2 underline">
+                <h3 className="text-lg md:text-xl font-semibold mb-2 underline">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                <p className="text-gray-600 dark:text-gray-300 mb-4 text-start">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">

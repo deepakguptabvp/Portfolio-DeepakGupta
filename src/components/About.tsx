@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const stats = [
   { icon: <Award />, label: "Years Experience", value: "3+" },
-  { icon: <BookOpen />, label: "Projects Completed", value: "5+" },
+  { icon: <BookOpen />, label: "Projects Completed", value: "10+" },
   { icon: <Coffee />, label: "Cups of Coffee", value: "50+" },
-  { icon: <Heart />, label: "Happy Clients", value: "3+" },
+  { icon: <Heart />, label: "Happy Clients", value: "5+" },
 ];
 
 export default function About() {
@@ -45,10 +45,12 @@ export default function About() {
             <div className="relative z-10">
               <Image
                 src="https://images.unsplash.com/photo-1545184180-25d471fe75eb?q=80&w=1861&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                height={600}
-                width={600}
                 alt="My Pic"
-                className="rounded-lg shadow-xl animate-fade-in"
+                fill={false}
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="rounded-lg shadow-xl animate-fade-in w-full h-auto object-cover max-h-[500px] min-h-[300px]"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-pink-600/20 rounded-lg transform translate-x-4 translate-y-4 -z-10" />
