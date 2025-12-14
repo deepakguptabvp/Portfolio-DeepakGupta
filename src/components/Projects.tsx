@@ -17,15 +17,15 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "PgFinder.com",
+    title: "UrbanStayz",
     description:
       "Discover comfortable and affordable PG accommodations across the city. Your new home is just a search away.",
     image:
       "https://i.ytimg.com/vi/ecwgerzpLrs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvdD7j6ySyOMcAgnCmrgzZY-3n9w",
     category: "Websites",
     techStack: ["ReactJs", "Javascript", "Tailwind CSS"],
-    demoLink: "https://pg-finder-gray.vercel.app/",
-    githubLink: "https://github.com/deepakguptabvp/pg-finder",
+    demoLink: "https://urbanstayz-gray.vercel.app/",
+    githubLink: "https://github.com/deepakguptabvp/UrbanStayz-Frontend",
   },
   {
     title: "TuneMasters - Academy",

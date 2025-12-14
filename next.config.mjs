@@ -38,6 +38,11 @@ const nextConfig = {
         hostname: "www.livemint.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
+        pathname: "**",
+      },
     ],
   },
   eslint: {

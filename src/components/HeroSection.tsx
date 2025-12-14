@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-16 bg-shite dark:bg-gray-900"
+      className="min-h-screen flex items-center pt-16 dark:bg-gray-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col lg:flex-row items-center">
         <div className="lg:w-3/4 lg:pr-12 space-y-6">
@@ -62,14 +62,14 @@ export default function Hero() {
           <div className="relative">
             <div className="w-52 h-52 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xlxl">
               <Image
-                src="/new.jpg"
-                width={800}
-                height={800}
+                src="https://media.istockphoto.com/id/1204374053/photo/profile-side-view-portrait-of-his-he-nice-attractive-skilled-focused-serious-guy-writing.jpg?s=612x612&w=0&k=20&c=ohF7qYstx9E6eJXpcQUtxFJCx9jjRBHilXcFehoOGyU="
+                width={600}
+                height={600}
                 alt="Profile"
                 className="w-full h-full object-cover "
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-tr from-gray-600/5 to-slate-600/30 rounded-full" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-gray-100/5 to-slate-800/30 rounded-full" />
           </div>
         </div>
       </div>
